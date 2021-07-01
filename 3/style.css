@@ -189,7 +189,7 @@ a {
     }
 }
 
-@media only screen  and (max-width: 768px) {
+@media only screen  and (max-width: 760px) {
     .resume{
         height: 1800px;
         padding: 0;
@@ -220,7 +220,7 @@ a {
     color: #636e72;
     margin: 5px;
 }
-@media only screen  and (max-width: 768px) {
+@media only screen  and (max-width: 760px) {
     .fa-water{
         margin: 0;
     }
@@ -294,7 +294,7 @@ a {
     color: #636e72;
     margin: 5px 10px;
 }
-@media only screen  and (max-width: 768px){
+@media only screen  and (max-width: 760px){
     .fa-circle , .fa-ellipsis-v{
         font-size: 30px;
         margin-bottom: 17.5px;
@@ -323,7 +323,7 @@ a {
     height: 25%;
     box-sizing: border-box;
 }
-@media only screen  and (max-width: 768px){
+@media only screen  and (max-width: 760px){
     .resume-introduction{
         width: 45%;
     }
@@ -340,7 +340,7 @@ a {
     font-weight: 700;
     letter-spacing:2px
 }
-@media only screen  and (max-width: 768px){
+@media only screen  and (max-width: 760px){
     [class^="introduction-title-left"]{
         font-size: 18px;
         height: 20%;
@@ -365,7 +365,7 @@ a {
     font-weight: 700;
     letter-spacing:2px
 }
-@media only screen  and (max-width: 768px){
+@media only screen  and (max-width: 760px){
     [class^="introduction-title-right"]{
         font-size: 18px;
         height: 20%;
@@ -497,7 +497,7 @@ a {
 .www-logo img {
     width: 100%;
 }
-@media only screen  and (max-width: 768px)  {
+@media only screen  and (max-width: 760px)  {
     .codepan-logo,
     .github-logo,
     .www-logo {
