@@ -66,7 +66,7 @@ function addNewData(index) {
                     alt=""></a>
                      <a class="codepan-logo"  target=_blank href="https://codepen.io/d1004221039/pen/${codepanindex[index]}">
                      <img src="https://vicchoutw.com/images/common/1x/follow/codepen-icon.png" alt=""></a>
-                    <a class="github-logo"  target=_blank href="https://github.com/d1004221039/UI-Design-Challenge/tree/main/1">
+                    <a class="github-logo"  target=_blank href="https://github.com/d1004221039/UI-Design-Challenge/tree/main/${index}}">
                     <img src="https://vicchoutw.com/images/common/1x/follow/github-icon.png" alt=""></a>
                     </div>  
                     `
