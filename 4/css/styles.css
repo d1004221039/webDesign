@@ -7420,21 +7420,36 @@ textarea.form-control-lg {
   color: #fff;
   margin-top: 15px;
 }
+
+
 .text-muted {
   color: #6c757d !important;
   width: 60%;
   margin: 0 auto;
 }
 
-
 .text-muted span{
   display: block;
-  text-align: left;
 }
+
 
 .text-muted a{
   text-decoration: none;
   color: #6c757d !important;  
+}
+.my-text-0{
+  text-align: left;
+}
+.my-text-1{
+  font-size: 18px;
+  font-weight: 700;
+}
+.my-text-2{
+  font-size: 15px;
+  font-weight: 700;
+}
+.my-text-3{
+  font-size: 12px;
 }
 
 
