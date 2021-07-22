@@ -5355,6 +5355,12 @@ textarea.form-control-lg {
   height: 300px;
 }
 
+@media (max-width: 768px) {
+  .modal-img{
+    height: 150px;
+  }
+}
+
 .modal-footer {
   display: flex;
   flex-wrap: wrap;
@@ -6888,7 +6894,12 @@ textarea.form-control-lg {
   margin-right: 0.5rem !important;
   margin-left: 0.5rem !important;
 }
-
+@media (max-width: 768px){
+  .mx-2 {
+    margin-right: 0rem !important;
+    margin-left: 0rem !important;
+  }
+}
 .mx-3 {
   margin-right: 1rem !important;
   margin-left: 1rem !important;
