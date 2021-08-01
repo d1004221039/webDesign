@@ -39,10 +39,12 @@
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#information">我的資料</a></li>
                     <li class="nav-item"><a class="nav-link" href="#experience">學程式語言經歷</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#UIDesign">UI Design</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#JSChallenge">JS Challenge</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#scroll">JS + CSS</a></li>
                     <li class="nav-item"><a class="nav-link" href="#reacthooks">React Hooks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#scroll">頁面切版</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#JSChallenge">JS Challenge</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#UIDesign">UI Design</a></li>
+                    <li class="nav-item"><a class="nav-link" target=_blank href="https://rollerblade.tw/">程式學習部落格</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -60,17 +62,17 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">我的資料</h2>
-                <h3 class="section-subheading text-muted">以下是我的個人資料跟學經歷</h3>
+                <h3 class="section-subheading text-muted">我的個人資料跟學經歷</h3>
             </div>
             <div class="row text-center">
-                <div class="col-md-4 my-container">
+                <div class="col-md-4 experience-mb-80">
                     <span class="fa-stack fa-4x">
                         <div>
                             <img src="./assets/img/my-img.jpg" alt="">
                         </div>
                     </span>
                     <h4 class="my-3">蔡 東 航</h4>
-                    <p class="text-muted">
+                    <p class="text-muted ">
                         <span class="my-text-0"> <i class="fas fa-envelope fa-lg"></i> d1004221039@gmail.com</span>
                         <span class="my-text-0"> <i class="fas fa-mobile-alt fa-2x"></i> 0983-039-608</span>
                         <span class="my-text-0"> <i class="fab fa-line fa-lg"></i> tobby811023</span>
@@ -78,7 +80,7 @@
                                 href="https://rollerblade.tw/">紀錄程式學習部落格</a></span>
                     </p>
                 </div>
-                <div class="col-md-4 my-container">
+                <div class="col-md-4 experience-mb-80">
                     <span class="fa-stack fa-4x">
                         <div>
                             <i class="fas fa-user-graduate fa-lg"></i>
@@ -96,7 +98,7 @@
                         <span class="my-text-3">2011年至2016年</span>
                     </p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4  experience-mb-80">
                     <span class="fa-stack fa-4x">
                         <div>
                             <i class="fas fa-briefcase fa-lg"></i>
@@ -105,23 +107,20 @@
                     </span>
                     <h4 class="my-3">經 歷</h4>
                     <p class="text-muted my-container">
+                        <span class="my-text-1">飛司特直排輪團隊</span>
+                        <span class="my-text-2"> 擔任教練</span>
+                        <span class="my-text-3">2018年9月到現在</span>
+                        <span class="my-text-1">特賣場賣鞋及電銷</span>
+                        <span class="my-text-3">2017年至2018年</span>
                         <span class="my-text-1">中華民國陸軍</span>
                         <span class="my-text-2"> 擔任戰鬥工兵-退役</span>
                         <span class="my-text-3">2016年至2017年</span>
-                        <span class="my-text-1">特賣場賣鞋及電銷</span>
-
-                        <span class="my-text-3">2017年至2018年</span>
-
-                        <span class="my-text-1">飛司特直排輪團隊</span>
-                        <span class="my-text-2"> 擔任教練</span>
-
-                        <span class="my-text-3">2018年9月到現在</span>
                     </p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- About-->
+    <!-- 學程式語言經歷-->
     <section class="page-section bg-light" id="experience">
         <div class="container">
             <div class="text-center">
@@ -201,7 +200,268 @@
         </div>
     </section>
 
-    <!-- Team-->
+
+    <section class="page-section bg-light" id="reacthooks">
+        <div class="container px-5">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase"> React Hooks</h2>
+                <h3 class="section-subheading text-muted">是我學習react hooks練習作品</h3>
+            </div>
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5"><img class="img-fluid web-design-img" src="./5.PNG" alt="..." />
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h2 class="display-4">台灣好天氣</h2>
+                        <ul class="web-disign-ul">
+                            <li>JSX: 跟課程實作</li>
+                            <li>style components: 跟課程實作</li>
+                            <li>React 元件: 跟課程實作</li>
+                            <li>參考文件: 從Hooks開始，讓你的網頁React起來</li>
+                        </ul>
+                        <p>這是我第一個使用React完成的網頁，使用react雖然一開始有點不習慣，但了解JSX跟emotion的寫法之後，就會跟之前寫HTML跟CSS差不多，在這當中學到了製作react元件將檔案進行拆分，使用useState來重新轉譯資料，props來傳遞資料...等其他Hooks的用法，透過這個書的練習，讓我接觸到React，雖然本書未提到class及生命週期的部分，但知道了基礎知識之後，後續的學習就比較可以上手
+                        </p>
+                        <a class="btn btn-dark btn-social mx-2" target=_blank
+                            href="https://d1004221039.github.io/weatherApp/"><i
+                                class="fab fa-internet-explorer fa-lg"></i></a>
+                        <a class=" btn btn-dark btn-social mx-2" target=_blank
+                            href="https://github.com/d1004221039/weatherApp"><i class="fab fa-codepen fa-lg"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section " id="scroll">
+        <div class="container px-5">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase"> 頁面切版</h2>
+                <h3 class="section-subheading text-muted">是我學習的頁面切版</h3>
+            </div>
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5"><img class="img-fluid web-design-img" src="./assets/img/webDesign/0.PNG"
+                            alt="..." />
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h2 class="display-4">練習網站一</h2>
+                        <ul class="web-disign-ul">
+                            <li>HTML: 跟課程實作</li>
+                            <li>CSS: 跟課程實作</li>
+                            <li>JavaScript: 跟課程實作</li>
+                            <li>參考文件: 課程</li>
+                        </ul>
+                        <p>這是我第一個完成的切版網站，跟著線上課程老師一步一步的切出來，雖然是跟著老師做，但在學習的過程中，我是將老師的步驟寫出來後，自己將程式碼編寫出來，而在步驟記錄過程中，也將所有提到的HTML跟CSS語法全部都記下來，也是我建立切版觀念的基礎
+                        </p>
+                        <a class="btn btn-dark btn-social mx-2" target=_blank
+                            href="https://d1004221039.github.io/webDesign/0/index.html"><i
+                                class="fab fa-internet-explorer fa-lg"></i></a>
+                        <a class=" btn btn-dark btn-social mx-2" target=_blank
+                            href="https://codepen.io/d1004221039/pen/yLbyVgz"><i class="fab fa-codepen fa-lg"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" target=_blank
+                            href="https://github.com/d1004221039/webDesign/tree/main/0"><i
+                                class="fab fa-github fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5"><img class="img-fluid web-design-img" src="./assets/img/webDesign/1.PNG"
+                            alt="..." />
+                    </div>
+                </div>
+
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5">
+                        <h2 class="display-4">練習網站二</h2>
+                        <ul class="web-disign-ul">
+                            <li>HTML: 老師寫的</li>
+                            <li>CSS: 老師寫的</li>
+                            <li>JavaScript: 跟課程實作</li>
+                            <li>參考文件: 課程</li>
+                        </ul>
+                        <p>這個網站HTML跟CSS都是老師先切好的，主要是透過這個網站練習JavaScript動畫的部分，分別有導覽列的漢堡表單，下拉選單，彈窗功能，輪播圖片，表單驗證，分別用es5跟es6的方式去寫，透過這個網站，了解DOM的使用方法、ES6的一些寫法、class模組化的方式
+                        </p>
+                        <a class="btn btn-dark btn-social mx-2" target=_blank
+                            href="https://d1004221039.github.io/webDesign/1/index.html"><i
+                                class="fab fa-internet-explorer fa-lg"></i></a>
+                        <a class=" btn btn-dark btn-social mx-2" target=_blank
+                            href="https://codepen.io/d1004221039/pen/JjNobJw"><i class="fab fa-codepen fa-lg"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" target=_blank
+                            href="https://github.com/d1004221039/webDesign/tree/main/1"><i
+                                class="fab fa-github fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5"><img class="img-fluid web-design-img" src="./assets/img/webDesign/2.PNG"
+                            alt="..." />
+                    </div>
+                </div>
+
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h2 class="display-4">練習蝦皮切版</h2>
+                        <ul class="web-disign-ul">
+                            <li>HTML: 自己寫</li>
+                            <li>CSS: 自己寫</li>
+                            <li>JavaScript: 自己寫</li>
+                            <li>參考文件: 蝦皮官網</li>
+                        </ul>
+                        <p>這是我依照蝦皮購物網的首頁練習切的板，主要練習我學習的結果，在這當中不只應用之前所學的技巧外，額外還學到如何自製輪播圖片(之前專案是用套件)，以及發現更多HTML跟CSS搭配用法，例如消除input外框outline:
+                            none;顏色漸層linear-gradient。這些主要不是將這些功能學會而已，而是練習如何找到自己需要的資料，應用在自己程式當中</p>
+                        <a class="btn btn-dark btn-social mx-2" target=_blank
+                            href="https://d1004221039.github.io/webDesign/2/index.html"><i
+                                class="fab fa-internet-explorer fa-lg"></i></a>
+                        <a class=" btn btn-dark btn-social mx-2" target=_blank
+                            href="https://codepen.io/d1004221039/pen/KKWYGZw"><i class="fab fa-codepen fa-lg"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" target=_blank
+                            href="https://github.com/d1004221039/webDesign/tree/main/2"><i
+                                class="fab fa-github fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5"><img class="img-fluid web-design-img" src="./assets/img/webDesign/3.PNG"
+                            alt="..." />
+                    </div>
+                </div>
+
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5">
+                        <h2 class="display-4">履歷作品網頁製作</h2>
+                        <ul class="web-disign-ul">
+                            <li>HTML: 自己寫</li>
+                            <li>CSS: 自己寫</li>
+                            <li>JavaScript: 自己寫</li>
+                            <li>參考文件:各網站到處看</li>
+                        </ul>
+                        <p>這個網頁是將我目前學到的作品，集結再一起的作品集，並且將我所學的功能都用上，嘗試編制自己做的網頁，最大的困難點是從無到有的過程，一開始完全沒有任何想法，只能把知道的要擺的東西都放上去，然後依照需求慢慢改編嘗試，並且複習不少以前學過的功能，像是RWD也是在這次好好地複習，一樣為了呈現不同畫面而搜尋了新的功能，算是對我一個很大的突破
+                        </p>
+                        <a class="btn btn-dark btn-social mx-2" target=_blank
+                            href="https://d1004221039.github.io/webDesign/3/index.html"><i
+                                class="fab fa-internet-explorer fa-lg"></i></a>
+                        <a class=" btn btn-dark btn-social mx-2" target=_blank
+                            href="https://codepen.io/d1004221039/pen/eYWmBer"><i class="fab fa-codepen fa-lg"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" target=_blank
+                            href="https://github.com/d1004221039/webDesign/tree/main/3"><i
+                                class="fab fa-github fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript Challenge-->
+    <section class="page-section bg-light" id="JSChallenge">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase"> JavaScript Challenge</h2>
+                <h3 class="section-subheading text-muted">是我學習JavaScript所做的練習</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 1-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><span>表單驗證</span>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="./assets/img/JSChallenge/JS挑戰-0.PNG" alt="..." />
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 2-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><span>電影畫位</span></div>
+                            </div>
+                            <img class="img-fluid" src="./assets/img/JSChallenge/JS挑戰-1.PNG" alt="..." />
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 3-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><span>OOXX</span></div>
+                            </div>
+                            <img class="img-fluid" src="./assets/img/JSChallenge/JS挑戰-2.PNG" alt="..." />
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Portfolio item 6-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><span>計算機</span></div>
+                            </div>
+                            <img class="img-fluid" src="./assets/img/JSChallenge/JS挑戰-3.PNG" alt="..." />
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Portfolio item 6-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><span>猜數字</span></div>
+                            </div>
+                            <img class="img-fluid" src="./assets/img/JSChallenge/JS挑戰-4.PNG" alt="..." />
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Portfolio item 6-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><span>todoList</span></div>
+                            </div>
+                            <img class="img-fluid" src="./assets/img/JSChallenge/JS挑戰-5.PNG" alt="..." />
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- UI Design-->
     <section class="page-section" id="UIDesign">
         <div class="container">
             <div class="text-center">
@@ -451,266 +711,6 @@
 
             </div>
 
-        </div>
-    </section>
-
-    <!-- Portfolio Grid-->
-    <section class="page-section bg-light" id="JSChallenge">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase"> JavaScript Challenge</h2>
-                <h3 class="section-subheading text-muted">以下是我學習JavaScript所做的練習</h3>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 1-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="./assets/img/JSChallenge/JS挑戰-0.PNG" alt="..." />
-                        </a>
-
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 2-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="./assets/img/JSChallenge/JS挑戰-1.PNG" alt="..." />
-                        </a>
-
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 3-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="./assets/img/JSChallenge/JS挑戰-2.PNG" alt="..." />
-                        </a>
-
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <!-- Portfolio item 6-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="./assets/img/JSChallenge/JS挑戰-3.PNG" alt="..." />
-                        </a>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6">
-                    <!-- Portfolio item 6-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="./assets/img/JSChallenge/JS挑戰-4.PNG" alt="..." />
-                        </a>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6">
-                    <!-- Portfolio item 6-->
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="./assets/img/JSChallenge/JS挑戰-5.PNG" alt="..." />
-                        </a>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="page-section " id="scroll">
-        <div class="container px-5">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase"> JS + CSS</h2>
-                <h3 class="section-subheading text-muted">以下是我學習的頁面切版</h3>
-            </div>
-            <div class="row gx-5 align-items-center">
-                <div class="col-lg-6 order-lg-2">
-                    <div class="p-5"><img class="img-fluid web-design-img" src="./assets/img/webDesign/0.PNG"
-                            alt="..." />
-                    </div>
-                </div>
-                <div class="col-lg-6 order-lg-1">
-                    <div class="p-5">
-                        <h2 class="display-4">練習網站一</h2>
-                        <ul class="web-disign-ul">
-                            <li>HTML: 跟課程實作</li>
-                            <li>CSS: 跟課程實作</li>
-                            <li>JavaScript: 跟課程實作</li>
-                            <li>參考文件: 課程</li>
-                        </ul>
-                        <p>這是我第一個完成的切版網站，跟著線上課程老師一步一步的切出來，雖然是跟著老師做，但在學習的過程中，我是將老師的步驟寫出來後，在自己將程式碼編寫出來，而在步驟記錄過程中，也將所有提到的HTML跟CSS語法全部都記下來，也是我建立切版觀念的基礎
-                        </p>
-                        <a class="btn btn-dark btn-social mx-2" target=_blank
-                            href="https://d1004221039.github.io/webDesign/0/index.html"><i
-                                class="fab fa-internet-explorer fa-lg"></i></a>
-                        <a class=" btn btn-dark btn-social mx-2" target=_blank
-                            href="https://codepen.io/d1004221039/pen/yLbyVgz"><i class="fab fa-codepen fa-lg"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" target=_blank
-                            href="https://github.com/d1004221039/webDesign/tree/main/0"><i
-                                class="fab fa-github fa-lg"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="page-section">
-        <div class="container px-5">
-            <div class="row gx-5 align-items-center">
-                <div class="col-lg-6 order-lg-1">
-                    <div class="p-5"><img class="img-fluid web-design-img" src="./assets/img/webDesign/1.PNG"
-                            alt="..." />
-                    </div>
-                </div>
-
-                <div class="col-lg-6 order-lg-2">
-                    <div class="p-5">
-                        <h2 class="display-4">練習網站二</h2>
-                        <ul class="web-disign-ul">
-                            <li>HTML: 老師寫的</li>
-                            <li>CSS: 老師寫的</li>
-                            <li>JavaScript: 跟課程實作</li>
-                            <li>參考文件: 課程</li>
-                        </ul>
-                        <p>這個網站HTML跟CSS都是老師先切好的，主要是透過這個網站練習JavaScript動畫的部分，分別有導覽列的漢堡表單，下拉選單，彈窗功能，輪播圖片，表單驗證，分別用es5跟es6的方式去寫，透過這個網站，了解DOM的使用方法、ES6的一些寫法、class模組化的方式
-                        </p>
-                        <a class="btn btn-dark btn-social mx-2" target=_blank
-                            href="https://d1004221039.github.io/webDesign/1/index.html"><i
-                                class="fab fa-internet-explorer fa-lg"></i></a>
-                        <a class=" btn btn-dark btn-social mx-2" target=_blank
-                            href="https://codepen.io/d1004221039/pen/JjNobJw"><i class="fab fa-codepen fa-lg"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" target=_blank
-                            href="https://github.com/d1004221039/webDesign/tree/main/1"><i
-                                class="fab fa-github fa-lg"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="page-section">
-        <div class="container px-5">
-            <div class="row gx-5 align-items-center">
-                <div class="col-lg-6 order-lg-2">
-                    <div class="p-5"><img class="img-fluid web-design-img" src="./assets/img/webDesign/2.PNG"
-                            alt="..." />
-                    </div>
-                </div>
-
-                <div class="col-lg-6 order-lg-1">
-                    <div class="p-5">
-                        <h2 class="display-4">練習蝦皮切版</h2>
-                        <ul class="web-disign-ul">
-                            <li>HTML: 自己寫</li>
-                            <li>CSS: 自己寫</li>
-                            <li>JavaScript: 自己寫</li>
-                            <li>參考文件: 蝦皮官網</li>
-                        </ul>
-                        <p>這是我依照蝦皮購物網的首頁練習切的板，主要練習我學習的結果，在這當中不只應用之前所學的技巧外，額外還學到如何自製輪播圖片(之前專案是用套件)，以及發現更多HTML跟CSS搭配用法，例如消除input外框outline:
-                            none;顏色漸層linear-gradient。這些主要不是將這些功能學會而已，而是練習如何找到自己需要的資料，應用在自己程式當中</p>
-                        <a class="btn btn-dark btn-social mx-2" target=_blank
-                            href="https://d1004221039.github.io/webDesign/2/index.html"><i
-                                class="fab fa-internet-explorer fa-lg"></i></a>
-                        <a class=" btn btn-dark btn-social mx-2" target=_blank
-                            href="https://codepen.io/d1004221039/pen/KKWYGZw"><i class="fab fa-codepen fa-lg"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" target=_blank
-                            href="https://github.com/d1004221039/webDesign/tree/main/2"><i
-                                class="fab fa-github fa-lg"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="page-section">
-        <div class="container px-5">
-            <div class="row gx-5 align-items-center">
-                <div class="col-lg-6 order-lg-1">
-                    <div class="p-5"><img class="img-fluid web-design-img" src="./assets/img/webDesign/3.PNG"
-                            alt="..." />
-                    </div>
-                </div>
-
-                <div class="col-lg-6 order-lg-2">
-                    <div class="p-5">
-                        <h2 class="display-4">履歷作品網頁製作</h2>
-                        <ul class="web-disign-ul">
-                            <li>HTML: 自己寫</li>
-                            <li>CSS: 自己寫</li>
-                            <li>JavaScript: 自己寫</li>
-                            <li>參考文件:各網站到處看</li>
-                        </ul>
-                        <p>這個網頁是將我目前學到的作品，集結再一起的作品集，並且將我所學的功能都用上，嘗試編制自己做的網頁，最大的困難點是從無到有的過程，一開始完全沒有任何想法，只能把知道的要擺的東西都放上去，然後依照需求慢慢改編嘗試，並且複習不少以前學過的功能，像是RWD也是在這次好好地複習，一樣為了呈現不同畫面而搜尋了新的功能，算是對我一個很大的突破
-                        </p>
-                        <a class="btn btn-dark btn-social mx-2" target=_blank
-                            href="https://d1004221039.github.io/webDesign/3/index.html"><i
-                                class="fab fa-internet-explorer fa-lg"></i></a>
-                        <a class=" btn btn-dark btn-social mx-2" target=_blank
-                            href="https://codepen.io/d1004221039/pen/eYWmBer"><i class="fab fa-codepen fa-lg"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" target=_blank
-                            href="https://github.com/d1004221039/webDesign/tree/main/3"><i
-                                class="fab fa-github fa-lg"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="page-section bg-light" id="reacthooks">
-        <div class="container px-5">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase"> React Hooks</h2>
-                <h3 class="section-subheading text-muted">以下是我學習react hooks得練習作品</h3>
-            </div>
-            <div class="row gx-5 align-items-center">
-                <div class="col-lg-6 order-lg-2">
-                    <div class="p-5"><img class="img-fluid web-design-img" src="./5.PNG" alt="..." />
-                    </div>
-                </div>
-                <div class="col-lg-6 order-lg-1">
-                    <div class="p-5">
-                        <h2 class="display-4">台灣好天氣</h2>
-                        <ul class="web-disign-ul">
-                            <li>JSX: 跟課程實作</li>
-                            <li>style components: 跟課程實作</li>
-                            <li>React 元件: 跟課程實作</li>
-                            <li>參考文件: 從Hooks開始，讓你的網頁React起來</li>
-                        </ul>
-                        <p>這是我第一個使用React完成的網頁，使用react雖然一開始有點不習慣，但了解JSX跟emotion的寫法之後，就會跟之前寫HTML跟CSS差不多，在這當中學到了製作react元件將檔案進行拆分，使用useState來重新轉譯資料，props來傳遞資料...等其他Hooks的用法，透過這個書的練習，讓我接觸到React，雖然本書未提到class及生命週期的部分，但知道了基礎知識之後，後續的學習就比較可以上手
-                        </p>
-                        <a class="btn btn-dark btn-social mx-2" target=_blank
-                            href="https://d1004221039.github.io/weatherApp/"><i
-                                class="fab fa-internet-explorer fa-lg"></i></a>
-                        <a class=" btn btn-dark btn-social mx-2" target=_blank
-                            href="https://github.com/d1004221039/weatherApp"><i class="fab fa-codepen fa-lg"></i></a>
-
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 

@@ -1235,6 +1235,12 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
+@media (min-width: 769px) {
+.col-md-4 {
+  flex: 0 0 auto;
+  width: 33.333333333%;
+}}
+
 @media (min-width: 768px) {
   .col-md-auto {
     flex: 0 0 auto;
@@ -1256,10 +1262,7 @@ progress {
     width: 25%;
   }
 
-  .col-md-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%;
-  }
+ 
 
   .col-md-5 {
     flex: 0 0 auto;
@@ -7437,6 +7440,22 @@ textarea.form-control-lg {
   color: #6c757d !important;
   width: 60%;
   margin: 0 auto;
+  font-size: 15px;
+}
+
+ @media (max-width: 769px){
+  .text-muted {
+    width: 40%;
+}
+} 
+@media (max-width: 500px){
+  .text-muted {
+    width: 60%;
+}
+} 
+
+.experience-mb-80{
+ margin-bottom: 80px; 
 }
 
 .text-muted span{
@@ -11107,6 +11126,14 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 1.25rem;
   color: white;
+}
+.portfolio-hover-content{
+ text-align: center; 
+}
+
+.portfolio-hover-content span{
+  font-size: 25px;
+  color: #f9ca24;
 }
 #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
   opacity: 1;
