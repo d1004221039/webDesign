@@ -21,7 +21,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
     <link href="css/styles.css" rel="stylesheet" />
-
+    <script src="https://kit.fontawesome.com/ed5199de00.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -39,7 +39,8 @@
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#information">我的資料</a></li>
                     <li class="nav-item"><a class="nav-link" href="#experience">學程式語言經歷</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#reacthooks">React Hooks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#companyProject">工作專案</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reacthooks">React</a></li>
                     <li class="nav-item"><a class="nav-link" href="#scroll">頁面切版</a></li>
                     <li class="nav-item"><a class="nav-link" href="#JSChallenge">JS Challenge</a></li>
                     <li class="nav-item"><a class="nav-link" href="#UIDesign">UI Design</a></li>
@@ -185,6 +186,20 @@
                         </div>
                     </div>
                 </li>
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid"
+                            src="./assets/img/programmingLanguageExperience/5.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>August 2021</h4>
+                            <h4 class="subheading">轉職前端工程師</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                正式進入公司上班，接觸第一份程式相關工作</p>
+                        </div>
+                    </div>
+                </li>
                 <li class="timeline-inverted">
                     <div class="timeline-image">
                         <h4>
@@ -201,11 +216,108 @@
     </section>
 
 
+    <!-- Projects-->
+    <section class="projects-section " id="projects">
+        <div id="companyProject" class="text-center">
+            <h2 class="section-heading text-uppercase"> 工作專案</h2>
+            <h3 style="margin-bottom: 64px;" class="section-subheading text-muted">是我任職期間的專案</h3>
+        </div>
+        <div class="container px-4 px-lg-5">
+            <!-- Project One Row-->
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <div class="col-lg-6"><img style="width:100%" class="img-fluid" src="assets/img/company/7PK.bmp"
+                        alt="..." /></div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project" style="background: rgba(0,0,0,0.8)">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">7PK</h4>
+                                <p style="padding: 0 10%;" class="mb-0 text-white-50">
+                                    將機台遊戲改編至網頁上，以撲克牌進行的遊戲，是相當熱門的一種，這款遊戲相當考驗玩家的腦力，同時又簡單刺激</p>
+                                <hr class="d-none d-lg-block mb-0 ms-0" />
+                                <button id="BTN7PK" class="company-btn">介紹</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Two Row-->
+            <div class="row gx-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/company/huga.PNG" alt="..." /></div>
+                <div class="col-lg-6 order-lg-first" style="background: rgba(0,0,0,0.8)">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">叢林冒險</h4>
+                                <p style="padding: 0 10%;" class="mb-0 text-white-50">
+                                    是一款以原始叢林為主題的拉霸遊戲，有多樣化的生物中獎獎項，額外中獎的小瑪莉遊戲，以及各式各樣華麗的大獎畫面
+                                </p>
+                                <button id="BTNHuga" class="company-btn">介紹</button>
+                                <hr class="d-none d-lg-block mb-0 me-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id='companyIntroduce1' class="company-introduce">
+
+        <div class="company-container">
+            <div class="Close-container">
+                <img id='closeIntroduce1' class="company-introduce-Close" src="assets/img/close-icon.svg"
+                    alt="Close modal" />
+            </div>
+            <div class="body-container">
+                <div class="introduce-Item">
+                    <img id='introduceItemImg1' src="./assets/img/company/7PK/下注跟得分.gif" alt="">
+                </div>
+                <div id="introduceItemBTN1" class="introduce-Item">
+                    <button>下注跟得分</button>
+                    <button>大獎紀錄</button>
+                    <button>大獎畫面</button>
+                    <button>比倍畫面</button>
+                    <button>自動遊戲</button>
+                    <button>投幣設定</button>
+                    <button>訊息提示</button>
+                    <button>進出、換頁</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id='companyIntroduce2' class="company-introduce">
+
+        <div class="company-container">
+            <div class="Close-container">
+                <img id='closeIntroduce2' class="company-introduce-Close" src="assets/img/close-icon.svg"
+                    alt="Close modal" />
+            </div>
+            <div class="body-container">
+                <div class="introduce-Item">
+                    <img id='introduceItemImg2' src="./assets/img/company/huga/下注畫面.gif" alt="">
+                </div>
+                <div id="introduceItemBTN2" class="introduce-Item">
+                    <button>下注畫面</button>
+                    <button>大獎bonus</button>
+                    <button>比倍畫面</button>
+                    <button>比倍獲勝畫面</button>
+                    <button>自動遊戲</button>
+                    <button>規則換頁</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
     <section class="page-section bg-light" id="reacthooks">
         <div class="container px-5">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase"> React Hooks</h2>
-                <h3 class="section-subheading text-muted">是我學習react hooks練習作品</h3>
+                <h2 class="section-heading text-uppercase"> React</h2>
+                <h3 class="section-subheading text-muted">是我學習React練習作品</h3>
             </div>
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6 order-lg-2">
@@ -1161,6 +1273,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="./js/owl.js"></script>
+
 </body>
 
 </html>
