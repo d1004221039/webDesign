@@ -80,12 +80,16 @@ var introduceItemImg2 = document.getElementById("introduceItemImg2");
 introduceItemBTN1.addEventListener("click", (e) => {
   console.log();
   if (e.target.localName != "div") {
+    console.log(e.target.innerText);
     introduceItemImg1.src =
       "./assets/img/company/7PK/" + e.target.innerText + ".gif";
   }
 });
 
 introduceItemBTN2.addEventListener("click", (e) => {
-  introduceItemImg2.src =
-    "./assets/img/company/huga/" + e.target.innerText + ".gif";
+  if (e.target.localName != "div") {
+    console.log(e.target.innerText);
+    introduceItemImg2.src =
+      "./assets/img/company/huga/" + e.target.innerText + ".gif";
+  }
 });
